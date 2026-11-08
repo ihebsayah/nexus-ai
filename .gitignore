@@ -1,0 +1,43 @@
+.env
+.env.*
+!.env.example
+.envrc
+
+# Local credentials and private keys; examples and application source stay visible.
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+.DS_Store
+
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.pnpm-store/
+.turbo/
+
+# Generated build output, never source directories or package lockfiles.
+/backend/build/
+/backend/dist/
+/frontend/build/
+/frontend/dist/
+
+# Next.js regenerates this declaration via next typegen/build.
+/frontend/next-env.d.ts
